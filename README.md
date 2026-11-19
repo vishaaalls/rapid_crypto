@@ -77,7 +77,7 @@ and `rapidCryptoCpuFeatures` reports which SHA instructions the CPU has.
 
 ```yaml
 dependencies:
-  rapid_crypto: ^0.1.0
+  rapid_crypto: ^0.1.1
 ```
 
 The native library is built by a Dart build hook (`hook/build.dart`), so
@@ -105,9 +105,9 @@ cd native && cargo test --release
 dart build cli -t bench/bin/bench.dart && ./build/cli/*/bundle/bin/bench
 ```
 
-Releasing: push a tag like `v0.1.0`. `.github/workflows/release.yml` builds
+Releasing: push a tag like `v0.1.1`. `.github/workflows/release.yml` builds
 the 12 platform binaries and attaches them with `SHA256SUMS`. Then run
-`dart run tool/update_prebuilt.dart v0.1.0` and commit
+`dart run tool/update_prebuilt.dart v0.1.1` and commit
 `lib/src/prebuilt.dart`.
 
 ## Part of the rapid_* family

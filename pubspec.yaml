@@ -2,7 +2,7 @@ name: rapid_crypto
 description: >-
   package:crypto, faster: a drop-in import that computes MD5, SHA-1, SHA-2
   and HMAC in Rust, using the CPU's SHA instructions when available.
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/vishaaalls/rapid_crypto
 topics: [crypto, hash, sha256, hmac, performance]
 

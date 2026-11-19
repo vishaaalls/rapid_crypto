@@ -1,6 +1,6 @@
 [package]
 name = "rapid_crypto"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Rust core for the rapid_crypto Dart package: MD5, SHA-1, SHA-2 and HMAC."
 license = "MIT"

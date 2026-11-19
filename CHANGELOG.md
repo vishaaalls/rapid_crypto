@@ -1,6 +1,12 @@
+## 0.1.1
+
+- First published release.
+- Apple (macOS/iOS) libraries are linked with spare header space, so Dart's
+  and Flutter's bundlers can rewrite their install names under long paths.
+
 ## 0.1.0
 
-- Initial release: drop-in replacement for package:crypto.
+- Initial version (not published): drop-in replacement for package:crypto.
 - `md5`, `sha1`, `sha224`, `sha256`, `sha384`, `sha512`, `sha512224`,
   `sha512256` and `Hmac` computed in Rust (RustCrypto), using the CPU's
   SHA-1/SHA-256 and SHA-512 instructions when available.
