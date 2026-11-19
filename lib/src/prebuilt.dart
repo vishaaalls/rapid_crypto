@@ -7,7 +7,32 @@ const prebuiltBaseUrl =
     'https://github.com/vishaaalls/rapid_crypto/releases/download';
 
 /// Release tag holding the binaries, e.g. 'v0.1.0'.
-const prebuiltVersion = '';
+const prebuiltVersion = 'v0.1.1';
 
 /// '<rust triple>/<file name>' -> SHA-256 of the file.
-const prebuiltHashes = <String, String>{};
+const prebuiltHashes = <String, String>{
+  'aarch64-apple-darwin/librapid_crypto.dylib':
+      'f252e7243dec2ef6219a127a5da742a432bd5b858c9a7a03fa4eba565a41901f',
+  'aarch64-apple-ios-sim/librapid_crypto.dylib':
+      'fce0872b5cfe9665bbd77b06a984ba191636b880e12b7e1e9cb08aff4d790dfa',
+  'aarch64-apple-ios/librapid_crypto.dylib':
+      'bcb94d1e630a0083c4ff9cf56f5758e331ff6e2548344068d17231291dfc8ac6',
+  'aarch64-linux-android/librapid_crypto.so':
+      '86616142fe5edf75c16be576d61df097d5447956060a31e66f209eb4e412339b',
+  'aarch64-pc-windows-msvc/rapid_crypto.dll':
+      'd2aa576b199d4bcf3c34b7d8453c633441fad4b4a90b464df6d138d1156d0dd1',
+  'aarch64-unknown-linux-gnu/librapid_crypto.so':
+      '434d8fc07b1885023a224796bde7d0bc0aa4686e10f9bbb1fb2c4e01ecad40b9',
+  'armv7-linux-androideabi/librapid_crypto.so':
+      '26a88bce401ca18be39d50afcf4a90525e94fcfc37247626a15270f850bee0af',
+  'x86_64-apple-darwin/librapid_crypto.dylib':
+      '8ed1561d020977b21d82891669e0e2ecc70c7493539de5624707b212d6567e27',
+  'x86_64-apple-ios/librapid_crypto.dylib':
+      'fca4827813efce08d9c233b1ceced119b05915eedbeaa14f5d4d394f09e86847',
+  'x86_64-linux-android/librapid_crypto.so':
+      'b7ea1f721e2e14e81f18dbd678b08dca58e6fce22af8e8cde72f549632f751d6',
+  'x86_64-pc-windows-msvc/rapid_crypto.dll':
+      '370854539687711c2b32e64ef50822bc26ac6a0d29d345951e268b7adb2f6bac',
+  'x86_64-unknown-linux-gnu/librapid_crypto.so':
+      '4ec40ccd44657d6e6f748c970913f3548096b094780af0209044911ba0e1ae25',
+};
